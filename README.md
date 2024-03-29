@@ -23,12 +23,13 @@ O projeto está estruturado da seguinte maneira:
 - **database:** Contém os arquivos relacionados ao banco de dados MongoDB.
 
 ## Como Executar o Projeto Localmente
+
 1. Clone este repositório em sua máquina local.
-2. Navegue até o diretório `frontend` e execute `npm install` para instalar as dependências do frontend.
-3. Navegue até o diretório `backend` e execute `npm install` para instalar as dependências do backend.
-4. Execute o servidor do backend executando `npm start` no diretório `backend`.
-5. Execute o servidor do frontend executando `npm start` no diretório `frontend`.
-6. Acesse o sistema em seu navegador acessando `http://localhost:3000`.
+2. Navegue até o diretório raiz do projeto e execute `npm install` para instalar as dependências tanto do frontend quanto do backend.
+3. Execute ambos os servidores (frontend e backend) simultaneamente executando `npm run dev` no diretório raiz do projeto.
+4. Acesse o sistema em seu navegador acessando `http://localhost:3000`.
+
+Certifique-se de ter o Node.js e o npm instalados em sua máquina antes de seguir essas instruções. Este comando `npm run dev` foi configurado para iniciar tanto o servidor frontend quanto o backend em conjunto.
 
 ## Autor
 Ivan Nalison - [GitHub (Squadseis)](https://github.com/Squadseis/ProjetoRecode-Aldeia) / [GitHub (ivannalison)](https://github.com/ivannalison)
