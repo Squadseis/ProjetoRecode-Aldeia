@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "name": "projrecfinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start-backend": "node backend/server.js",
+    "start-frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
